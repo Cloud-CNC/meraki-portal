@@ -1,0 +1,29 @@
+{
+  "name": "meraki-portal",
+  "version": "1.0.0",
+  "description": "Meraki Portal auto login",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloud-CNC/meraki-portal.git"
+  },
+  "keywords": [
+    "meraki",
+    "portal"
+  ],
+  "author": "Cloud CNC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cloud-CNC/meraki-portal/issues"
+  },
+  "homepage": "https://github.com/Cloud-CNC/meraki-portal#readme"
+}
