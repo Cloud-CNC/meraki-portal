@@ -1,4 +1,8 @@
 # Meraki Portal
+![status](https://img.shields.io/badge/status-under%20development-yellow)
+[![issues](https://img.shields.io/github/issues/Cloud-CNC/meraki-portal)](https://github.com/Cloud-CNC/meraki-portal/issues)
+[![last commit](https://img.shields.io/github/last-commit/Cloud-CNC/meraki-portal)](https://github.com/Cloud-CNC/meraki-portal/commits/master)
+
 Tired of clicking `Continue to the Internet` everytime you want to do something? This plugin does it for you.
 
 ## Install

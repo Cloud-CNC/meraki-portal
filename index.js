@@ -4,7 +4,7 @@
  */
 
 //Imports
-const request = require('request').defaults({ jar: true });
+const request = require('request').defaults({jar: true});
 
 /**
  * @function Meraki portal auto-sign-in
