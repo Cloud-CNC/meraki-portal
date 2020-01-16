@@ -12,5 +12,5 @@ meraki().then(() =>
 }).
 catch(err =>
 {
-  console.error('Failed to parse grant, you already be logged in!');
+  console.log('Failed to parse grant, you already be logged in!');
 });
