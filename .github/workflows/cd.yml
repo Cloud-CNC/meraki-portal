@@ -1,6 +1,6 @@
 # Continuous delivery
 
-name: Tests
+name: Continuous Delivery
 on: push
 jobs:
   publish:
