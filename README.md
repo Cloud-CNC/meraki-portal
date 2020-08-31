@@ -3,7 +3,7 @@
 [![issues](https://img.shields.io/github/issues/Cloud-CNC/meraki-portal)](https://github.com/Cloud-CNC/meraki-portal/issues)
 [![last commit](https://img.shields.io/github/last-commit/Cloud-CNC/meraki-portal)](https://github.com/Cloud-CNC/meraki-portal/commits/master)
 
-Tired of clicking `Continue to the Internet` everytime you want to do something? This plugin does it for you.
+Tired of clicking `Continue to the Internet` every time you want to do something on your computer? This plugin does it for you, programmatically.
 
 ## Install
 `npm i meraki-portal`
@@ -18,7 +18,7 @@ merakiPortal();
 ```
 
 ## Limitations
-* This plugin has been tested on exactly 1 network
+* This plugin has been tested on exactly `1` Meraki network
 * No support for credentials
 * No built in way of verifying that you've logged in
 

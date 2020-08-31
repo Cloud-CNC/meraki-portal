@@ -4,7 +4,9 @@
   "description": "Meraki Portal auto login",
   "main": "index.js",
   "dependencies": {
-    "request": "^2.88.0"
+    "axios": "^0.20.0",
+    "axios-cookiejar-support": "^1.0.0",
+    "tough-cookie": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
