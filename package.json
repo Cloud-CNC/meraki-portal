@@ -1,11 +1,12 @@
 {
   "name": "meraki-portal",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Meraki Portal auto login",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.20.0",
     "axios-cookiejar-support": "^1.0.0",
+    "cheerio": "^1.0.0-rc.3",
     "tough-cookie": "^4.0.0"
   },
   "devDependencies": {

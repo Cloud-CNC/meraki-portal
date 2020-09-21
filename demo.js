@@ -10,7 +10,7 @@ meraki().then(() =>
 {
   console.log('Success!');
 }).
-catch(() =>
+catch(error =>
 {
-  console.log('An error occurred, you already be logged in!');
+  console.log(`An error occurred, you already be logged in! Error: ${error}`);
 });

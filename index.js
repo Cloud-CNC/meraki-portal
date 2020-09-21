@@ -6,6 +6,7 @@
 //Imports
 const {CookieJar} = require('tough-cookie');
 const axios = require('axios').default;
+const cheerio = require('cheerio');
 const cookieSupport = require('axios-cookiejar-support').default;
 
 /**
@@ -24,18 +25,20 @@ module.exports = async () =>
   });
 
   //Extract grant URL
-  const grant = splash.data.match(/https:\/\/n\d{3}\.network-auth\.com\/[A-z]+\/hi\/[A-z0-9]+\/grant/);
+  const $ = cheerio.load(splash.data);
+  const grant = $('a[class="button"]').attr('href');
 
   //Failed to parse grant
-  if (grant == null || grant[0] == null)
+  if (grant == null)
   {
     return Promise.reject();
   }
   else
   {
     //Get grant (It'll automatically redirect to the grant access)
-    await axios.get(grant[0], {
-      jar
+    await axios.get(grant, {
+      jar,
+      withCredentials: true
     });
 
     return Promise.resolve();
