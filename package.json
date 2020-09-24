@@ -1,6 +1,6 @@
 {
   "name": "meraki-portal",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Meraki Portal auto login",
   "main": "index.js",
   "dependencies": {
@@ -13,6 +13,7 @@
     "eslint": "^6.8.0"
   },
   "scripts": {
+    "start": "node cli.js",
     "test": "eslint ."
   },
   "repository": {
