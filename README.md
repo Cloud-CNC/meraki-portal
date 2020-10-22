@@ -1,5 +1,5 @@
 # Meraki Portal
-![status](https://img.shields.io/badge/status-under%20development-yellow)
+![status](https://img.shields.io/badge/status-beta-orange)
 [![issues](https://img.shields.io/github/issues/Wakeful-Cloud/meraki-portal)](https://github.com/Wakeful-Cloud/meraki-portal/issues)
 [![last commit](https://img.shields.io/github/last-commit/Wakeful-Cloud/meraki-portal)](https://github.com/Wakeful-Cloud/meraki-portal/commits/master)
 
@@ -8,12 +8,16 @@ Tired of clicking `Continue to the Internet` every time you want to do something
 ## Install
 `npm i meraki-portal`
 
+## Startup Service (Windows Only)
+* Register the service: `npm run register`
+* Unregister the service: `npm run unregister`
+
 ## Usage
 ```Javascript
 //Import
 const merakiPortal = require('meraki-portal');
 
-//Login (Promise)
+//Login (Promise; resolves when successful/rejects when already logged in or an error happened)
 merakiPortal();
 ```
 

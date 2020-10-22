@@ -13,8 +13,10 @@
     "eslint": "^6.8.0"
   },
   "scripts": {
+    "register": "node register.js",
     "start": "node cli.js",
-    "test": "eslint ."
+    "test": "eslint .",
+    "unregister": "node unregister.js"
   },
   "repository": {
     "type": "git",
